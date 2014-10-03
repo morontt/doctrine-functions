@@ -6,6 +6,8 @@
  * Time: 17:11
  */
 
+namespace Morontt\DQL\Numeric;
+
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 use Doctrine\ORM\Query\Lexer;
 use Doctrine\ORM\Query\Parser;
