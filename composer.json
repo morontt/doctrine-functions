@@ -1,7 +1,11 @@
 {
     "name": "morontt/doctrine-functions",
     "description": "Additional DQL functions for Doctrine2",
-    "keywords": ["database", "mysql", "dql"],
+    "keywords": [
+        "database",
+        "mysql",
+        "dql"
+    ],
     "homepage": "https://github.com/morontt/doctrine-functions",
     "license": "MIT",
     "authors": [
