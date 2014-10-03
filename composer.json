@@ -7,7 +7,9 @@
     "authors": [
         {
             "name": "morontt",
-            "email": "morontt@gmail.com"
+            "email": "morontt@gmail.com",
+            "homepage": "http://morontt.info",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
