@@ -5,7 +5,7 @@
  * License: MIT
  */
 
-namespace Rem\SecurityBundle\DQL;
+namespace Morontt\DQL\DateTime;
 
 use Doctrine\ORM\Query\Lexer;
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;
