@@ -30,7 +30,7 @@ According to the [Doctrine documentation](http://docs.doctrine-project.org/en/la
 ```php
 <?php
 $config = new \Doctrine\ORM\Configuration();
-$config->addCustomDatetimeFunction('rand', 'Morontt\DQL\Numeric\Rand');
+$config->addCustomNumericFunction('rand', 'Morontt\DQL\Numeric\Rand');
 ?>
 ```
 
