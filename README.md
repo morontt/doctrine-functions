@@ -5,7 +5,11 @@ Additional DQL functions for Doctrine2
 
 ### Numeric functions
 
-* `RAND()`
+* `RAND()` [ref](http://dev.mysql.com/doc/refman/5.0/en/mathematical-functions.html#function_rand)
+
+### Datetime functions
+
+* `MONTH()` [ref](http://dev.mysql.com/doc/refman/5.0/en/date-and-time-functions.html#function_month)
 
 Installation
 ------------
