@@ -40,7 +40,7 @@ $config->addCustomNumericFunction('rand', 'Morontt\DQL\Numeric\Rand');
 
 ### 2) Using Symfony 2
 
-With symfony 2 you can register yout functions in the `config.yml` file.
+With symfony 2 you can register you functions in the `config.yml` file.
 
 ```yaml
 doctrine:
