@@ -11,6 +11,10 @@ Additional DQL functions for Doctrine2
 
 * `MONTH()` [ref](http://dev.mysql.com/doc/refman/5.0/en/date-and-time-functions.html#function_month)
 
+### String functions
+
+* `substr(string, from, count)` [ref](https://www.postgresql.org/docs/9.1/static/functions-string.html#FUNCTIONS-STRING-OTHER)
+
 Installation
 ------------
 
@@ -50,4 +54,8 @@ doctrine:
                 dql:
                     numeric_functions:
                         rand: Morontt\DQL\Numeric\Rand
+                    datetime_functions:
+                        month: Morontt\DQL\DateTime\Month
+                    string_functions:
+                        substr: Morontt\DQL\String\Substr
 ```

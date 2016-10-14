@@ -25,7 +25,7 @@ class Month extends FunctionNode
     {
         return "MONTH(" . $sqlWalker->walkArithmeticPrimary($this->date) . ")";
     }
-    
+
     public function parse(Parser $parser)
     {
         $parser->match(Lexer::T_IDENTIFIER);
@@ -34,5 +34,5 @@ class Month extends FunctionNode
         $this->date = $parser->ArithmeticPrimary();
 
         $parser->match(Lexer::T_CLOSE_PARENTHESIS);
-    }    
+    }
 }
